@@ -54,16 +54,7 @@ export default {
   name: 'App',
   data() {
     return {
-      url: "",
-      urls: ["https://s3.cointelegraph.com/uploads/2021-04/96eb5cdb-7629-49c4-966f-1a9ea0c0a274.png","data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA5FBMVEX///8AAADbsYDluYafn58pIRj/ySbb29srKytLS0u9mG7RqXrny6nhtoRzXUP6+vqOc1OmhmH/2SY8PDzq6up/f39TQzG5ublYWFjy1LHYr4Xfu4/Kysr/yxrzwU4TExPes3uvmoDkxqHtvVr9xy/oumbjtnF5a1ncuyH/4SdhUg7CpR2GaRT4xD/crSEwKQdiYmIcHBwoKCgjHBRgTjioqKiKb1G7l3G8vLyQkJBSUlJcUUP83rhFNyh0dHQ2LCA7P0tsVz/mzVp4ZC4iGAAnHgDQultKPwuzqZ3KwbfVqTfRpkPEYMG7AAADl0lEQVR4nO3daVfaQBSAYQkiiA1KtYp7tbUtXV3QWrtau/f//5+eHuZOxBuGQJQZwvt+hAnkOejJEIYwM0NEREREREREREREREREREREREREFGaLufMtGFRrPmdrvgWDapVyhtB7CBEi9B/CgZ37FqRXnTWdHuYVvpOHmvWN6ql6lBemu/CN6qlau31hyzeqJ4QIEfoP4cQKq9K5Fr5/KjWkXYenI4NW5ZZD++gr/oSzRzWTPuLvrZv2Y1O54hDWy2ZQU26Rhz5ernoUOnZ5755pPzK5hWZQ3FR3HRdeWEOIECFChInQMXqChB/kQL8ZqcrSkoyu2JvsoNjeFKhwXV66FKFFXBP2H4UQIUKECBFOrnBT6r/rEy507DJChAgRIkQ4kvBkYoSVVdPHTMKmDO/EkyJs6LMRTqKMdgBDE7p2dcQQIkSIEGHhhOU7yJ9w8YH0SXZit3IHWaF9vtNxCedLnhrXklOECBEiRIhwGGFjSZVpTzt6u89hCmXJZJJzRYltSW+3OngrL8L+02W3UE3UESJEiBDhdAnlHXrKlyvkrhMtjDsncqfazOd7fC1MVlg2tNDemXLeyn6UEcL6UqfQ7nGKcKH/8GQ7hAgRIkRYDOHMFyvsf4CLLydPmFwZ4usz05WsqdCTlGihrsoAvL7d2IVb8ozf2ve7tZ/LTcX4dG1LZppvECJEiBDhyEJ5xu/tdl7hzVPeccr24xdW10znP16Yfo4orDdVer7jc7WJnbWVRhPGZ+oBXCe1fM68RxWmfEKFECFChAiLJmxJ9jKQw30bIfjjYdKp3tNsRL2YVA8KQjjit4KyhRAhQoQIESJEiBAhQoQIEYYstOsMUhZe6LULdcfwUIW2pl4l67qed6DnaYYUZrlCK0KECBEinHbhJB8PL6OFm6k9jvQY5/CwhI3bm46GKizEmiiECBFOsTCI3wpqxBum/DJZj7lZ2u0WxGt49UjKTayfdS8jcfZrS/L5m10ifLkt5RUm35kJ4lc6rwnnut2iMIhflkOIEKH/EBZJOPe421z00JTstOutve63vUaEb93/kllbJLM2e+g/EKD9Lmi2wvr1eD3z3rB/rggRhhFChAj9lya0x0M5Qr6VQbXlDNVCF0ZPpJ1Xpj8y6GIlU75RPTnOtW3smL/X7dcyaH7R9/4On1No/iHnEAYdQoThN+XCoh8tooMd09+iCiM1ayucUKojDDmECMMPIcKx9Q8ynusYv/sf8QAAAABJRU5ErkJggg==","https://dappimg.com/media/image/app/6d8fc8150ce04166b6e506074f43c3c4.jpg"],
-    }
-  },
-  created() {
-    while(true) {
-      this.urls.forEach((item,index)=> {
-        this.url = item;
-        console.log(item)
-      });
+      url: "https://www.thewrap.com/wp-content/uploads/2021/03/2140-300x300.png",
     }
   },
   components: {
@@ -94,6 +85,7 @@ export default {
 
       #randompunk {
         height: 10vh;
+        margin-right: 2vw;
       }
       h1 {
         @extend .clear;
